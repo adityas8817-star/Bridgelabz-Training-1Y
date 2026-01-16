@@ -1,0 +1,9 @@
+class Fahrenheit
+{
+	public static void main(String args[])
+	{
+		int celsius = 80;
+		double farhenheit =((celsius*9)/5)+32;
+		System.out.println("farhenheit :" +farhenheit);
+	}
+}
