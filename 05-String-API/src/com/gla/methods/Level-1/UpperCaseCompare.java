@@ -11,7 +11,7 @@ public class UpperCaseCompare {
             char ch = text.charAt(i);
 
             if (ch >= 'a' && ch <= 'z') {
-                ch = (char)(ch - 32);
+                ch = (char) (ch - 32);
             }
 
             result += ch;
@@ -47,4 +47,6 @@ public class UpperCaseCompare {
         boolean result = compareStrings(manualUpper, builtInUpper);
 
         System.out.println(manualUpper);
-        System.out.pri
+        System.out.println(builtInUpper);
+    }
+}
